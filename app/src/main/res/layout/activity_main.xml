@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <xu.ferris.touchview.TouchView
+        android:id="@+id/mTouchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <xu.ferris.touchview.CustomViewPage
+            android:id="@+id/mCustomViewpage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_containt"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#454545"
+            android:text="New Text" />
+
+    </xu.ferris.touchview.TouchView>
+</FrameLayout>
