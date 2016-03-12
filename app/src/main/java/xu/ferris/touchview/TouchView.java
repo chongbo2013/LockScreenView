@@ -1,23 +1,14 @@
 package xu.ferris.touchview;
-
 import android.content.Context;
-import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.ViewConfiguration;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.FrameLayout;
-import android.widget.OverScroller;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.nineoldandroids.animation.Animator;
-import com.nineoldandroids.animation.AnimatorListenerAdapter;
 import com.nineoldandroids.view.ViewHelper;
 import com.nineoldandroids.view.ViewPropertyAnimator;
-
 /**
  *
  * http://blog.csdn.net/xiaanming/article/details/18311877
@@ -39,8 +30,8 @@ public class TouchView extends FrameLayout {
     protected final static int TOUCH_STATE_SCROLLING = 1;
     //屏幕的一半
     private static final float screenHalfRadio=0.5f;
-    protected long mAnimationTime = 200;
-    protected long mFlingAnimationTime = 150;
+    protected long mAnimationTime = 250;
+    protected long mFlingAnimationTime = 200;
 
     public TouchView(Context context) {
         super(context);
