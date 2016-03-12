@@ -19,8 +19,9 @@ import com.nineoldandroids.view.ViewHelper;
 import com.nineoldandroids.view.ViewPropertyAnimator;
 
 /**
+ *
  * http://blog.csdn.net/xiaanming/article/details/18311877
- * Created by Administrator on 2016/3/11.
+ * Created by ferris on 2016/3/11.
  */
 public class TouchView extends FrameLayout {
     private final String TAG = "TouchView";
